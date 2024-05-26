@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <script src="https://www.gstatic.com/firebasejs/10.0.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.0.0/firebase-auth-compat.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/ui/6.0.1/firebase-ui-auth.js"></script>
+
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="https://www.gstatic.com/firebasejs/ui/6.0.1/firebase-ui-auth.css"
+    />
+  </head>
+
+  <body class="bg-dark text-light">
+    <div
+      class="container text-center align-middle text-center d-flex align-items-center w-100 vh-100"
+    >
+      <!-- <div class="row justify-content-center">
+        <div class="col-md-6">
+          <h2 class="text-center mb-4">Signup</h2>
+          <form>
+            <div class="form-group"></div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Enter your email"
+              />
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                class="form-control"
+                id="password"
+                placeholder="Enter your password"
+              />
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">
+              Signup
+            </button>
+          </form>
+        </div>
+      </div> -->
+      <button class="btn btn-success m-auto btn-lg" id="google-login">
+        login
+      </button>
+    </div>
+
+    <script src="js/signup.js" type="module"></script>
+  </body>
+</html>
