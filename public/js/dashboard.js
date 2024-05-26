@@ -46,14 +46,14 @@ const mainthing = document.getElementById("main");
 mainthing.hidden = false;
 
 // firebase logout
-logout.addEventListener("click", () => {
-  auth.signOut().then(() => {
-    // Sign-out successful.
-    console.log("Sign-out successful.");
-    // redirect to /
-    window.location.href = "/";
-  });
-});
+// logout.addEventListener("click", () => {
+//   auth.signOut().then(() => {
+//     // Sign-out successful.
+//     console.log("Sign-out successful.");
+//     // redirect to /
+//     window.location.href = "/";
+//   });
+// });
 
 // get id container
 const idContainer = document.getElementById("container");
